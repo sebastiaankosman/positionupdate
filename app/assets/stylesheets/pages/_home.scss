@@ -1,1 +1,133 @@
 // Specific CSS for your home-page
+.container {
+background-color: #EDF5FB;
+width: 800px;
+height: 1000px;
+}
+
+.activity {
+  display: flex;
+  width: 600px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.activity-text {
+height: 40px;
+background-color: #0C5755;
+width: 200px;
+font: Bold 16px;
+color: #FFFFFF;
+text-align: center;
+  border-radius: 8px 0px 0px 8px;
+
+
+}
+
+.activity-field {
+background-color: white;
+height: 40px;
+color: #0C5755;
+width: 300px;
+text-align: center;
+border-radius: 0px 8px 8px 0px !important;
+
+}
+
+select#activity, input#activity-field {
+  border: 1px solid white;
+  height: 40px;
+}
+
+.date {
+display: flex;
+  width: 600px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+
+.date-text {
+height: 40px;
+background-color: #0C5755;
+width: 200px;
+font: Bold 16px;
+color: #FFFFFF;
+text-align: center;
+border-radius: 8px 0px 0px 8px;
+
+
+}
+
+.date-field {
+background-color: white;
+height: 40px;
+color: #0C5755;
+width: 300px;
+text-align: center;
+border-radius: 0px 8px 8px 0px !important;
+
+}
+
+input#matriculation_date, input#date-field {
+  border: 1px solid white;
+  height: 40px;
+  border-radius: 0px 8px 8px 0px !important;
+}
+
+.time {
+display: flex;
+  width: 600px;
+  margin-top: 100px;
+  margin-left: 100px;
+  border-radius: 0px 8px 8px 0px;
+
+}
+
+.time-text {
+height: 40px;
+background-color: #0C5755;
+width: 200px;
+font: Bold 16px;
+color: #FFFFFF;
+text-align: center;
+border-radius: 8px 0px 0px 8px;
+
+
+}
+
+.time-field {
+background-color: white;
+height: 40px;
+color: #0C5755;
+width: 300px;
+text-align: center;
+border-radius: 0px 8px 8px 0px;
+
+}
+
+input#recieved, input#time-field {
+  border: 1px solid white;
+  height: 40px;
+}
+
+
+.submit {
+  font-family: $body-font;
+  color: #4A4A4A;
+  font-size: 12px;
+  background-color: #F7DB64;
+  padding: 8px 24px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  width: 182px;
+  height: 50px;
+  a {
+    color: $black;
+    text-decoration: none;
+  }
+}

@@ -1,2 +1,42 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class = "container">
+
+<h1>Enter barge status</h1>
+
+<%= simple_form_for '', method: :get do |f| %>
+
+<div class= "activity">
+<div class="activity-text">
+  Activity
+</div>
+<div class="activity-field">
+  <%= f.input :activity, label: false, collection: [['Sailing to loadport', 'Sailing to loadport'], ['Sailing to discharge port', 'Sailing to discharge port'],
+  ['Loading till', 'Loading till'], ['Discharge till', 'Discharge till'], ['Waiting for loading', 'Waiting for loading'], ['Waiting for discharge', 'Waiting for discharge']] %>
+</div>
+</div>
+<div class="date">
+<div class="date-text">
+  Expected arrival date
+</div>
+<div class="date-field">
+  <%= f.date_field :matriculation_date, class: 'form-control' %>
+</div>
+</div>
+<div class="time">
+<div class="time-text">
+  Expected arrival time
+</div>
+<div class="time-field">
+  <%=
+  f.time_field :recieved,
+  value: "%H:%M",
+  min: 'hh:mm:ss',
+  max: 'hh:mm:ss'
+  %>
+</div>
+</div>
+<div class="submit">
+  <%= f.submit 'Send update' %>
+</div>
+<% end %>
+
+</div>
