@@ -1,25 +1,43 @@
 // Specific CSS for your home-page
 .container {
 background-color: #EDF5FB;
-width: 800px;
-height: 1000px;
+width: 700px;
+height: 700px;
+margin-top: 50px;
+}
+
+.bargename {
+display: flex;
+}
+
+.form {
+  margin-top: 100px;
 }
 
 .activity {
   display: flex;
   width: 600px;
-  margin-top: 100px;
-  margin-left: 100px;
+  margin-top: 50px;
+  margin-left: 75px;
+}
+
+.header1 {
+  color: #0C5755;
+  font-size: 32px;
+  margin-left: 75px;
+
 }
 
 .activity-text {
 height: 40px;
 background-color: #0C5755;
 width: 200px;
-font: Bold 16px;
+font-size: 14px;
+font-weight: bold;
 color: #FFFFFF;
 text-align: center;
-  border-radius: 8px 0px 0px 8px;
+border-radius: 8px 0px 0px 8px;
+padding: 7px 15px;
 
 
 }
@@ -28,7 +46,7 @@ text-align: center;
 background-color: white;
 height: 40px;
 color: #0C5755;
-width: 300px;
+width: 350px;
 text-align: center;
 border-radius: 0px 8px 8px 0px !important;
 
@@ -43,7 +61,7 @@ select#activity, input#activity-field {
 display: flex;
   width: 600px;
   margin-top: 100px;
-  margin-left: 100px;
+  margin-left: 75px;
 }
 
 
@@ -51,10 +69,12 @@ display: flex;
 height: 40px;
 background-color: #0C5755;
 width: 200px;
-font: Bold 16px;
+font-size: 14px;
+font-weight: bold;
 color: #FFFFFF;
 text-align: center;
 border-radius: 8px 0px 0px 8px;
+padding: 7px 15px;
 
 
 }
@@ -63,7 +83,7 @@ border-radius: 8px 0px 0px 8px;
 background-color: white;
 height: 40px;
 color: #0C5755;
-width: 300px;
+width: 350px;
 text-align: center;
 border-radius: 0px 8px 8px 0px !important;
 
@@ -79,7 +99,7 @@ input#matriculation_date, input#date-field {
 display: flex;
   width: 600px;
   margin-top: 100px;
-  margin-left: 100px;
+  margin-left: 75px;
   border-radius: 0px 8px 8px 0px;
 
 }
@@ -88,10 +108,12 @@ display: flex;
 height: 40px;
 background-color: #0C5755;
 width: 200px;
-font: Bold 16px;
+font-size: 14px;
 color: #FFFFFF;
+font-weight: bold;
 text-align: center;
 border-radius: 8px 0px 0px 8px;
+padding: 7px 15px;
 
 
 }
@@ -100,7 +122,7 @@ border-radius: 8px 0px 0px 8px;
 background-color: white;
 height: 40px;
 color: #0C5755;
-width: 300px;
+width: 350px;
 text-align: center;
 border-radius: 0px 8px 8px 0px;
 
@@ -113,10 +135,13 @@ input#recieved, input#time-field {
 
 
 .submit {
+  margin-top: 100px;
+  margin-left: 445px;
   font-family: $body-font;
-  color: #4A4A4A;
+  color: black;
   font-size: 12px;
   background-color: #F7DB64;
+  font-weight: bold;
   padding: 8px 24px;
   border-radius: 10px;
   display: flex;
@@ -125,9 +150,13 @@ input#recieved, input#time-field {
   opacity: 1;
   transition: opacity 0.3s ease;
   width: 182px;
-  height: 50px;
+  height: 40px;
   a {
     color: $black;
     text-decoration: none;
   }
+}
+
+.linkto {
+  margin-top: 100px;
 }
