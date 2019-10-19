@@ -7,6 +7,12 @@
 <div class="form">
   <%= simple_form_for '', method: :get do |f| %>
 
+  <div class= "trip">
+     <div class="trip-text">
+      Trip number
+    </div>
+  <div class="trip-field"><%= f.input :tripnumber, label: false %></div>
+    </div>
   <div class= "activity">
     <div class="activity-text">
       Activity
