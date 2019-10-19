@@ -4,8 +4,6 @@
     <h1>Enter barge status</h1>
   </div>
 
-<%= current_user.barge_name %>
-
 <div class="form">
   <%= simple_form_for '', method: :get do |f| %>
 
@@ -40,7 +38,8 @@
     </div>
     </div>
   </div>
-    <%= mail_to "sebastiaan.kosman@shell.com", 'Send update', class: "submit" %>
+        <%= f.submit "Send update", class: "submit"%>
+
   <% end %>
 </div>
 
