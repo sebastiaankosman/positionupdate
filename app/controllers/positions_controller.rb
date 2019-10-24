@@ -20,7 +20,7 @@ class PositionsController < ApplicationController
   end
 
   private def position_params
-    params.permit(:date, :time, :activity, :tripnumber)
+    params.require(:position).permit(:date, :time, :activity, :tripnumber)
 
   end
 end

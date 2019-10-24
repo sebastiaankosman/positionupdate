@@ -1,2 +1,0 @@
-class PositionUpdate < ApplicationRecord
-end
