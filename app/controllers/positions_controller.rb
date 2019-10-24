@@ -11,7 +11,7 @@ class PositionsController < ApplicationController
   def create
     @position = Position.new(position_params)
     if @position.save!
-      redirect_to @position
+      # redirect_to @position
 
       PositionMailer.general_message(@position).deliver
     else
