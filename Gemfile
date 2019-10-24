@@ -8,6 +8,8 @@ gem 'puma'
 gem 'rails', '5.2.3'
 gem 'redis'
 gem 'devise'
+gem 'letter_opener', group: :development
+
 
 
 gem 'autoprefixer-rails'

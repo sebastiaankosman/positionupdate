@@ -41,7 +41,7 @@ text-align: center;
 border-radius: 0px 8px 8px 0px !important;
 }
 
-input#tripnumber, input#trip-field {
+input#post_tripnumber, input#trip-field {
   border: 1px solid white;
   height: 40px;
   border-radius: 0px 8px 8px 0px !important;
@@ -87,7 +87,7 @@ border-radius: 0px 8px 8px 0px !important;
 
 }
 
-select#activity, input#activity-field {
+select#post_activity, input#activity-field {
   border: 1px white;
   height: 40px;
 }
@@ -124,7 +124,7 @@ border-radius: 0px 8px 8px 0px !important;
 
 }
 
-input#matriculation_date, input#date-field {
+input#post_date, input#date-field {
   border: 1px solid white;
   height: 40px;
   border-radius: 0px 8px 8px 0px !important;
@@ -163,7 +163,7 @@ border-radius: 0px 8px 8px 0px;
 
 }
 
-input#recieved, input#time-field {
+input#post_time, input#time-field {
   border: 1px solid white;
   height: 40px;
   width: 300px;
