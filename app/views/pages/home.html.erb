@@ -1,54 +1,6 @@
 <div class = "container">
 
-  <div class="header1">
-    <h1>Enter barge status</h1>
-  </div>
 
-<div class="form">
-<%= simple_form_for '', method: :get do |f| %>
-
-
-  <div class= "trip">
-     <div class="trip-text">
-      Trip number
-    </div>
-  <div class="trip-field"><%= f.input :tripnumber, label: false, placeholder: 'enter here' %></div>
-    </div>
-  <div class= "activity">
-    <div class="activity-text">
-      Activity
-    </div>
-    <div class="activity-field">
-      <%= f.input :activity, label: false, collection: [['Sailing to loadport, expected arrival', 'Sailing to loadport, expected arrival'], ['Sailing to discharge port, expected arrival', 'Sailing to discharge port, expected arrival'],
-      ['Loading untill', 'Loading untill'], ['Discharging untill', 'Discharging untill'], ['Waiting for loading, expect to start', 'Waiting for loading, expect to start'], ['Waiting for discharge, expect to start', 'Waiting for discharge, expect to start']] %>
-    </div>
-  </div>
-  <div class="date">
-    <div class="date-text">
-      Date
-    </div>
-    <div class="date-field">
-      <%= f.date_field :date, class: 'form-control' %>
-    </div>
-  </div>
-  <div class="time">
-    <div class="time-text">
-      Time
-    </div>
-    <div class="time-field">
-      <%=
-      f.time_field :time,
-      value: "%H:%M",
-      min: 'hh:mm:ss',
-      max: 'hh:mm:ss'
-      %>
-    </div>
-    </div>
-  </div>
-        <%= f.submit "Send update", class: "submit"%>
-
-  <% end %>
-</div>
 
 <div class="linkto">
 <%= link_to "Log out", "/users/sign_out", method: :delete%>
