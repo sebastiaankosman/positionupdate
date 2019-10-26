@@ -5,7 +5,7 @@ class PositionsController < ApplicationController
   end
 
   def index
-    @barges = Barge.all?
+    @barges = Barge.all
   end
 
   def show
