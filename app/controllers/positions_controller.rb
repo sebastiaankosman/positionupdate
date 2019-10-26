@@ -5,7 +5,7 @@ class PositionsController < ApplicationController
   end
 
   def index
-    @barges = Barge.all
+    @positions = Position.all
   end
 
   def show
@@ -15,9 +15,9 @@ class PositionsController < ApplicationController
   def create
     @position = Position.new(position_params)
     if @position.save!
-      redirect_to @position
 
       PositionMailer.general_message(@position).deliver
+      redirect_to @position
     else
       render :new
     end
