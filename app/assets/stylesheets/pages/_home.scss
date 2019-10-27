@@ -10,24 +10,24 @@ display: flex;
 }
 
 .form {
-  margin-top: 100px;
+  // margin-top: 200px;
 }
 
 .trip {
-  display: flex;
-  width: 600px;
+  // display: flex;
+  width: 668px;
   margin-top: 50px;
-  margin-left: 75px;
+  margin-left: 150px;
 }
 
 .trip-text {
 height: 40px;
-background-color: #0C5755;
+// background-color: #0C5755;
 width: 200px;
 font-size: 14px;
 font-weight: bold;
-color: #FFFFFF;
-text-align: center;
+color: #0C5755;
+text-align: left;
 border-radius: 8px 0px 0px 8px;
 padding: 7px 15px;
 }
@@ -36,28 +36,29 @@ padding: 7px 15px;
  background-color: white;
 height: 40px;
 color: #0C5755;
-width: 350px;
+width: 368px;
 text-align: center;
-border-radius: 0px 8px 8px 0px !important;
+border-radius: 10px 10px 10px 10px !important;
+
 }
 
-input#post_tripnumber, input#trip-field {
+input#position_tripnumber, input#trip-field {
   border: 1px solid white;
   height: 40px;
-  border-radius: 0px 8px 8px 0px !important;
+  border-radius: 10px 10px 10px 10px !important;
 }
 
 .activity {
-  display: flex;
+  // display: flex;
   width: 600px;
-  margin-top: 100px;
-  margin-left: 75px;
+  margin-top: 50px;
+  margin-left: 150px;
 }
 
-.header1 {
+.welcome {
   color: #0C5755;
-  font-size: 32px;
-  margin-left: 75px;
+  font-size: 22px;
+  margin-left: 150px;
   // margin-top: 50px;
 
 
@@ -65,12 +66,12 @@ input#post_tripnumber, input#trip-field {
 
 .activity-text {
 height: 40px;
-background-color: #0C5755;
+// background-color: #0C5755;
 width: 200px;
 font-size: 14px;
 font-weight: bold;
-color: #FFFFFF;
-text-align: center;
+color: #0C5755;
+text-align: left;
 border-radius: 8px 0px 0px 8px;
 padding: 7px 15px;
 
@@ -81,33 +82,35 @@ padding: 7px 15px;
 background-color: white;
 height: 40px;
 color: #0C5755;
-width: 350px;
+width: 368px;
 text-align: center;
-border-radius: 0px 8px 8px 0px !important;
+border-radius: 10px 10px 10px 10px !important;
 
 }
 
-select#post_activity, input#activity-field {
+select#position_activity, input#activity-field {
   border: 1px white;
   height: 40px;
+  border-radius: 10px 10px 10px 10px !important;
+
 }
 
 .date {
-display: flex;
+// display: flex;
   width: 600px;
-  margin-top: 100px;
-  margin-left: 75px;
+  margin-top: 50px;
+  margin-left: 150px;
 }
 
 
 .date-text {
 height: 40px;
-background-color: #0C5755;
+// background-color: #0C5755;
 width: 200px;
 font-size: 14px;
 font-weight: bold;
-color: #FFFFFF;
-text-align: center;
+color: #0C5755;
+text-align: left;
 border-radius: 8px 0px 0px 8px;
 padding: 7px 15px;
 
@@ -118,35 +121,35 @@ padding: 7px 15px;
 background-color: white;
 height: 40px;
 color: #0C5755;
-width: 350px;
+width: 368px;
 text-align: center;
-border-radius: 0px 8px 8px 0px !important;
+border-radius: 10px 10px 10px 10px !important;
 
 }
 
-input#post_date, input#date-field {
+input#position_date, input#date-field {
   border: 1px solid white;
   height: 40px;
-  border-radius: 0px 8px 8px 0px !important;
+  border-radius: 10px 10px 10px 10px !important;
 }
 
 .time {
-display: flex;
+// display: flex;
   width: 600px;
-  margin-top: 100px;
-  margin-left: 75px;
+  margin-top: 50px;
+  margin-left: 150px;
   border-radius: 0px 8px 8px 0px;
 
 }
 
 .time-text {
 height: 40px;
-background-color: #0C5755;
+// background-color: #0C5755;
 width: 200px;
 font-size: 14px;
-color: #FFFFFF;
+color: #0C5755;
 font-weight: bold;
-text-align: center;
+text-align: left;
 border-radius: 8px 0px 0px 8px;
 padding: 7px 15px;
 
@@ -157,13 +160,13 @@ padding: 7px 15px;
 background-color: white;
 height: 40px;
 color: #0C5755;
-width: 350px;
+width: 368px;
 text-align: center;
-border-radius: 0px 8px 8px 0px;
+border-radius: 10px 10px 10px 10px;
 
 }
 
-input#post_time, input#time-field {
+input#position_time, input#time-field {
   border: 1px solid white;
   height: 40px;
   width: 300px;
@@ -196,3 +199,4 @@ input#post_time, input#time-field {
 .linkto {
   margin-top: 100px;
 }
+
