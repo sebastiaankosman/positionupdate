@@ -4,6 +4,6 @@ class PositionMailer < ActionMailer::Base
 
   def general_message(position)
     @position = position
-    mail(:to => "sebastiaankosman@gmail.com", :subject => "Position update")
+    mail(:to => "sebastiaankosman@gmail.com, sebastiaan.kosman@shell.com", :subject => "Position update")
   end
 end
