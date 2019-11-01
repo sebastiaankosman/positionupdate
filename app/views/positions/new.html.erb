@@ -1,13 +1,12 @@
 <div class = "container">
 
-
 <div class="form">
-
     <div class="welcome">
-    BARGE STATUS
+    BARGE STATUS  of <%= current_user.barge_name %>
   </div>
 
 <%= simple_form_for (@position)  do |f| %>
+
 
   <div class= "trip">
      <div class="trip-text">
@@ -30,7 +29,7 @@
       Date
     </div>
     <div class="date-field">
-      <%= f.date_field :date, discard_year: true, class: 'form-control' %>
+      <%= f.date_field :date, discard_year: true,  class: 'form-control' %>
     </div>
   </div>
   <div class="time">
@@ -54,9 +53,5 @@
 
   <% end %>
 </div>
+<%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
 
-
-<div class="linkto">
-<%= link_to "Log out", "/users/sign_out", method: :delete%>
-<%= link_to "Become a member", "/users/sign_up"%>
-</div>

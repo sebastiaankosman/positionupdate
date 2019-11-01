@@ -1,5 +1,4 @@
 class PositionsController < ApplicationController
-
   def new
     @position = Position.new
   end
@@ -16,7 +15,7 @@ class PositionsController < ApplicationController
     @position = Position.new(position_params)
     if @position.save!
       redirect_to @position
-      PositionMailer.general_message(@position).deliver
+      PositionMailer.general_message(@position, @barge_name).deliver
 
     else
       render :new
@@ -24,7 +23,7 @@ class PositionsController < ApplicationController
   end
 
   private def position_params
-    params.require(:position).permit(:date, :time, :activity, :tripnumber)
+    params.require(:position).permit(:date, :time, :activity, :tripnumber, :barge_name)
 
   end
 end

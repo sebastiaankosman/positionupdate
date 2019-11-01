@@ -2,8 +2,12 @@ class PositionMailer < ActionMailer::Base
   default from: "bargeplanner@gmail.com"
   layout 'mailer'
 
-  def general_message(position)
+  def general_message(position, barge_name)
+
     @position = position
-    mail(:to => "sebastiaankosman@gmail.com, sebastiaan.kosman@shell.com", :subject => "Position update")
+    @barge_name = barge_name
+
+
+    mail(:to => "sebastiaankosman@gmail.com, sebastiaan.kosman@shell.com", :subject => "#{barge_name}")
   end
 end

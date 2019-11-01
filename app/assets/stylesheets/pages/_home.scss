@@ -1,8 +1,19 @@
 // Specific CSS for your home-page
-.container {
-background-color: #EDF5FB;
+// .container {
+// background-color: white;
+// width: 768px;
+// height: 1024px;
+// display: grid;
+// grid-template-columns: 1fr 1fr 1fr;
+// grid-template-rows: 50px 50px;
+// }
+
+.container1 {
+background-color: white;
 width: 768px;
 height: 1024px;
+display: flex;
+
 }
 
 .bargename {
@@ -22,7 +33,7 @@ display: flex;
 
 .trip-text {
 height: 40px;
-// background-color: #0C5755;
+background-color: white;
 width: 200px;
 font-size: 14px;
 font-weight: bold;
@@ -38,14 +49,19 @@ height: 40px;
 color: #0C5755;
 width: 368px;
 text-align: center;
-border-radius: 10px 10px 10px 10px !important;
-
+border-radius: 25px !important;
+border: 2px #7A7D7D;
+border-style: solid;
 }
 
 input#position_tripnumber, input#trip-field {
   border: 1px solid white;
-  height: 40px;
-  border-radius: 10px 10px 10px 10px !important;
+  height: 30px;
+  border-radius: 25px !important;
+  margin-top: 2px;
+  width: 345px;
+  margin-left: 6px;
+  background: white !important;
 }
 
 .activity {
@@ -84,16 +100,20 @@ height: 40px;
 color: #0C5755;
 width: 368px;
 text-align: center;
-border-radius: 10px 10px 10px 10px !important;
-
+border-radius: 25px !important;
+border: 2px #7A7D7D;
+border-style: solid;
 }
 
 select#position_activity, input#activity-field {
   border: 1px solid white;
-  height: 40px;
-  border-radius: 10px 10px 10px 10px !important;
+  height: 30px;
+  border-radius: 25px !important;
   background-color: white;
-
+  width: 350px;
+  margin-top: 2px;
+  width: 345px;
+  margin-left: 6px;
 }
 
 .date {
@@ -112,7 +132,7 @@ font-size: 14px;
 font-weight: bold;
 color: #0C5755;
 text-align: left;
-border-radius: 8px 0px 0px 8px;
+border-radius: 25px;
 padding: 7px 15px;
 
 
@@ -124,14 +144,18 @@ height: 40px;
 color: #0C5755;
 width: 368px;
 text-align: center;
-border-radius: 10px 10px 10px 10px !important;
-
+border-radius: 25px !important;
+border: 2px #7A7D7D;
+border-style: solid;
 }
 
 input#position_date, input#date-field {
   border: 1px solid white;
-  height: 40px;
+  height: 30px;
   border-radius: 10px 10px 10px 10px !important;
+  margin-top: 2px;
+  width: 355px;
+  margin-left: 4px;
 }
 
 .time {
@@ -163,27 +187,31 @@ height: 40px;
 color: #0C5755;
 width: 368px;
 text-align: center;
-border-radius: 10px 10px 10px 10px;
-
+border-radius: 25px;
+border: 2px #7A7D7D;
+border-style: solid;
 }
 
 input#position_time, input#time-field {
   border: 1px solid white;
-  height: 40px;
-  width: 300px;
+  height: 30px;
+  width: 340px;
+  margin-top: 2px;
+  margin-left: 5px;
+
 }
 
 
 .submit {
   margin-top: 100px;
-  margin-left: 445px;
+  margin-left: 345px;
   font-family: $body-font;
-  color: black;
+  color: white;
   font-size: 12px;
-  background-color: #F7DB64;
+  background-color: #5fdb95;
   font-weight: bold;
   padding: 8px 24px;
-  border-radius: 10px;
+  border-radius: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -191,8 +219,9 @@ input#position_time, input#time-field {
   transition: opacity 0.3s ease;
   width: 182px;
   height: 40px;
+  border: none;
   a {
-    color: $black;
+    // color: $black;
     text-decoration: none;
   }
 }
@@ -200,4 +229,8 @@ input#position_time, input#time-field {
 .linkto {
   margin-top: 100px;
 }
+
+
+
+
 
