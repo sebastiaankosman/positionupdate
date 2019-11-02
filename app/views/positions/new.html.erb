@@ -1,10 +1,16 @@
 <div class = "container">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-sm-offset-4">
-<div class="form">
     <div class="welcome">
-    BARGE STATUS  of <%= current_user.barge_name %>
+        <div class="out">
+  <%= link_to "Sign out", destroy_user_session_path, :method => :delete%> </div>
+  <div class= "welcome-text">
+    Welcome <%= current_user.barge_name %>
   </div>
-
+  <p>Enter your barge status</p>
+</div>
+<div class="form-behind">
+<div class="form">
 <%= simple_form_for (@position)  do |f| %>
 
 
@@ -46,17 +52,15 @@
     </div>
     </div>
     <div class="buttons">
-    <div>
-  <%= link_to "Sign out", destroy_user_session_path, :method => :delete,class: "submit1" %>
-  </div>
+
     <div>
    <%= f.submit "Send update", class: "submit"%>
     </div>
   </div>
   </div>
-
+  </div>
 
   <% end %>
 </div>
-
-
+</div>
+</div>

@@ -8,9 +8,14 @@
   </head>
 
   <body>
-    Good day, hereby the latest status update of barge <%= @barge_name %>, trip
-    <%= yield %>
-    Kind regards,
-    Captain <%= @barge_name %>
+    <div>Good day, hereby the latest status update of barge <%= @barge_name %>. </div>
+    Trip <%= yield %>
+    <div>
+      Kind regards,
+    </div>
+
+    <div>
+      Captain <%= @barge_name %>
+  </div>
   </body>
 </html>
