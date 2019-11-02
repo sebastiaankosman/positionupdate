@@ -1,5 +1,5 @@
 <div class = "container">
-
+<div class="col-xs-12 col-sm-4 col-sm-offset-4">
 <div class="form">
     <div class="welcome">
     BARGE STATUS  of <%= current_user.barge_name %>
@@ -36,8 +36,7 @@
     <div class="time-text">
       Time
     </div>
-<!--     <i class="far fa-clock fa-2x"style=color:#0C5755></i>
- -->    <div class="time-field">
+   <div class="time-field">
       <%=
       f.time_field :time,
       value: "%H:%M",
@@ -46,12 +45,18 @@
       %>
     </div>
     </div>
+    <div class="buttons">
+    <div>
+  <%= link_to "Sign out", destroy_user_session_path, :method => :delete,class: "submit1" %>
+  </div>
+    <div>
    <%= f.submit "Send update", class: "submit"%>
-
+    </div>
+  </div>
   </div>
 
 
   <% end %>
 </div>
-<%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
+
 
