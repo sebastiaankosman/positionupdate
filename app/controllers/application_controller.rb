@@ -8,5 +8,6 @@ before_action :authenticate_user!
     devise_parameter_sanitizer.permit(:sign_up, keys: [:barge_name])
     devise_parameter_sanitizer.permit(:account_update, keys: [:barge_name])
   end
+
 end
 

@@ -50,13 +50,13 @@ position: absolute;
 
 .trip-text {
 height: 40px;
-// background-color: white;
+background-color: white;
 width: 200px;
 font-size: 14px;
 font-weight: bold;
 color: #4E8483;
 text-align: left;
-border-radius: 8px 0px 0px 8px;
+border-radius: 41px;
 padding: 7px 15px;
 }
 
@@ -66,21 +66,23 @@ height: 40px;
 color: #4E8483;
 width: 368px;
 text-align: center;
-border-radius: 41px !important;
-border: 2px solid #8E8E8E;
-border-style: solid;
-opacity: 1;
+// border-radius: 41px !important;
+// border: 2px solid #8E8E8E;
+// border-style: solid;
+// opacity: 1;
 }
 
 input#position_tripnumber, input#trip-field {
-  border: 1px solid white;
-  height: 30px;
-  border-radius: 25px !important;
+  border: 1px  white;
+  height: 60px;
+  border-radius: 41px !important;
   margin-top: 2px;
-  width: 345px;
+  width: 358px;
   margin-left: 6px;
   background: white !important;
   color: #4E8483;
+  border: 2px solid #8E8E8E;
+  text-align: center;
 }
 
 .activity {
@@ -133,8 +135,8 @@ padding: 7px 15px;
 }
 
 .activity-field {
-background-color: white;
-height: 40px;
+ background-color: white;
+height: 60px;
 color: #4E8483;
 width: 368px;
 text-align: center;
@@ -145,15 +147,20 @@ opacity: 1;
 }
 
 select#position_activity, input#activity-field {
-  border: 1px solid white;
-  height: 30px;
-  border-radius: 25px !important;
-  background-color: white;
-  width: 350px;
+ border: 1px  white;
+  height: 45px;
+  border-radius: 41px !important;
   margin-top: 2px;
-  width: 345px;
-  margin-left: 6px;
+  width: 330px;
+  margin-left: 13px;
+  // background: white !important;
+  color: #4E8483;
+  // border: 2px solid #8E8E8E;
+  text-align: center;
+  margin-top: 5px;
+
 }
+
 
 .date {
 // display: flex;
@@ -183,19 +190,25 @@ height: 40px;
 color: #4E8483;
 width: 368px;
 text-align: center;
-border-radius: 41px !important;
-border: 2px solid #8E8E8E;
-border-style: solid;
-opacity: 1;
+// border-radius: 41px !important;
+// border: 2px solid #8E8E8E;
+// border-style: solid;
+// opacity: 1;
 }
 
 input#position_date, input#date-field {
-  border: 1px solid white;
-  height: 30px;
-  border-radius: 10px 10px 10px 10px !important;
+  // border: 1px solid white;
+  height: 60px;
+  // border-radius: 10px 10px 10px 10px !important;
   margin-top: 2px;
-  width: 355px;
+  width: 368px;
   margin-left: 4px;
+  background-color: white;
+  color: #4E8483;
+  border: 2px solid #8E8E8E;
+  border-radius: 41px !important;
+  text-align: center;
+
 }
 
 .time {
@@ -223,23 +236,27 @@ padding: 7px 15px;
 
 .time-field {
 background-color: white;
-height: 40px;
+height: 60px;
 color: #4E8483;
 width: 368px;
 text-align: center;
-border-radius: 41px !important;
-border: 2px solid #8E8E8E;
-border-style: solid;
-opacity: 1;
+// border-radius: 41px !important;
+// border: 2px solid #8E8E8E;
+// border-style: solid;
+// opacity: 1;
 }
 
 input#position_time, input#time-field {
   border: 1px solid white;
-  height: 30px;
-  width: 340px;
+  height: 60px;
+  width: 368px;
   margin-top: 2px;
   margin-left: 5px;
-
+  background-color: white;
+  color: #4E8483;
+  border-radius: 41px !important;
+border: 2px solid #8E8E8E;
+text-align: center;
 }
 
 
@@ -257,16 +274,16 @@ input#position_time, input#time-field {
   margin-left: 90px;
   font-family: $body-font;
   color: white;
-  font-size: 12px;
+  font-size: 14px;
   background: #32B1B4 0% 0% no-repeat padding-box;  padding: 8px 24px;
-  border-radius: 25px;
+  border-radius: 41px;
   // display: flex;
   // align-items: center;
   justify-content: center;
   opacity: 1;
   transition: opacity 0.3s ease;
   width: 200px;
-  height: 40px;
+  height: 60px;
   border: none;
   a {
     // color: $black;
@@ -303,7 +320,5 @@ input#position_time, input#time-field {
 }
 
 a { color: white; }
-
-
 
 
