@@ -3,7 +3,7 @@ import "bootstrap";
 import { initSweetalert } from '../plugins/init_sweetalert';
 
 initSweetalert('#sweet-alert-demo', {
-  title: "Great",
-  text: "Thank you for the update",
+  title: "Thank you Captain!",
+  text: "Wishing you a safe journey",
   icon: "success"
 });
