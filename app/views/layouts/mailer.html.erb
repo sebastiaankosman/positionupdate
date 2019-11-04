@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <style>
-      /* Email styles need to be inline */
-    </style>
-  </head>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <style>
+    /* Email styles need to be inline */
+  </style>
+</head>
 
-  <body>
-    <div>Good day, hereby the latest status update of barge <%= @barge_name %>. </div>
-    Trip <%= yield %>
-    <div>
-      Kind regards,
-    </div>
-
-    <div>
-      Captain <%= @barge_name %>
+<body>
+  <div>Good day, hereby the latest status update of barge <%= @barge_name %>. </div>
+  Trip <%= @position.tripnumber %> <%= @position.activity %> <%= @position.time %> <%= @position.date %>
+  <div>
+    Comments: <%= @position.comment %>
   </div>
-  </body>
+  <div>
+    Kind regards,
+  </div>
+
+  <div>
+    Captain
+  </div>
+</body>
 </html>

@@ -52,8 +52,14 @@
       %>
     </div>
     </div>
-
-
+    <div class="comment">
+    <div class="comment-text">
+      Comments
+    </div>
+    <div>
+    <%= f.text_area :comment, placeholder: 'Please write down information such as technical issues, delays and other things that helps us plan' %>
+    </div>
+  </div>
     <div class="buttons">
 
     <div>
@@ -61,6 +67,7 @@
     </div>
 
   </div>
+
   </div>
   </div>
   <% end %>
