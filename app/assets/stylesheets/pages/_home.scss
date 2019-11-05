@@ -160,6 +160,7 @@ select#position_activity, input#activity-field {
   text-align: center;
   margin-top: 5px;
   box-shadow: 0s;
+  -webkit-appearance:none;
 
 }
 
@@ -284,7 +285,7 @@ text-align: center;
   justify-content: center;
   opacity: 1;
   transition: opacity 0.3s ease;
-  width: 200px;
+  width: 300px;
   height: 60px;
   border: none;
   a {
@@ -335,7 +336,7 @@ textarea#position_comment {
   color: #4E8483;
   border-radius: 25px !important;
 border: 2px solid #8E8E8E;
-text-align: center;
+text-align: left;
 padding: 6px;
 }
 
