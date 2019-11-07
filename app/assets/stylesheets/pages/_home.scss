@@ -16,27 +16,27 @@ display: flex;
 }
 
 .form {
-width: 555px;
+width: 375px;
 background: #FFFFFF 0% 0% no-repeat padding-box;
-margin-top: -60px;
+// margin-top: -20px;
 box-shadow: 0px 1px 6px #05404055;
 opacity: 1;
-margin-left: 107px;
-height: 900px;
+// margin-left: 45px;
+height: 567px;
 // position: absolute;
 // z-index: 1;
 
 }
 
-.form-behind {
-  width: 768px;
-  background: #D4ECEF 0% 0% no-repeat padding-box;
-// opacity: 0.06;
-position: absolute;
-height: 900px;
+// .form-behind {
+//   width: 375px;
+//   background: #D4ECEF 0% 0% no-repeat padding-box;
+// // opacity: 0.06;
+// position: absolute;
+// height: 567px;
 
 
-}
+// }
 #infoi {
   z-index: 10;
 }
@@ -44,16 +44,16 @@ height: 900px;
 
 .trip {
   // display: flex;
-  width: 500px;
-  margin-left: 90px;
-  padding-top: 40px;
+  width: 300px;
+  margin-left: 55px;
+  padding-top: 20px;
 }
 
 .trip-text {
-height: 40px;
+height: 30px;
 background-color: white;
-width: 200px;
-font-size: 20px;
+width: 270px;
+font-size: 15px;
 font-weight: bold;
 color: #4E8483;
 text-align: left;
@@ -65,7 +65,7 @@ padding: 7px 15px;
  background-color: white;
 height: 40px;
 color: #4E8483;
-width: 368px;
+width: 270px;
 text-align: center;
 // border-radius: 41px !important;
 // border: 2px solid #8E8E8E;
@@ -75,10 +75,10 @@ text-align: center;
 
 input#position_tripnumber, input#trip-field {
   border: 1px  white;
-  height: 60px;
+  height: 40px;
   border-radius: 41px !important;
   margin-top: 2px;
-  width: 368px;
+  width: 260px;
   margin-left: 6px;
   background: white !important;
   color: #4E8483;
@@ -88,9 +88,9 @@ input#position_tripnumber, input#trip-field {
 
 .activity {
   // display: flex;
-  width: 600px;
-  margin-top: 40px;
-  margin-left: 90px;
+  width: 300px;
+  margin-top: 15px;
+  margin-left: 55px;
 }
 
 .welcome {
@@ -102,14 +102,14 @@ input#position_tripnumber, input#trip-field {
   padding: 70px 0px 70px 0px;
   background: transparent linear-gradient(121deg, #473B7B 0%, #3584A7 53%, #30D2BE 100%) 0% 0% no-repeat padding-box;
 opacity: 1;
-height: 200px;
-width: 768px;
+height: 100px;
+width: 375px;
 text-align: center;
 }
 
 .welcome-text {
   font-weight: bold;
-  font-size: 35px;
+  font-size: 20px;
 text-align: center;
 margin-top: 5px;
 }
@@ -122,10 +122,10 @@ color: white;
 }
 
 .activity-text {
-height: 40px;
+height: 30px;
 // background-color: #0C5755;
-width: 200px;
-font-size: 20px;
+width: 270px;
+font-size: 15px;
 font-weight: bold;
 color: #4E8483;
 text-align: left;
@@ -137,9 +137,9 @@ padding: 7px 15px;
 
 .activity-field {
  background-color: white;
-height: 60px;
+height: 40px;
 color: #4E8483;
-width: 368px;
+width: 260px;
 text-align: center;
 border-radius: 41px !important;
 border: 2px solid #8E8E8E;
@@ -149,11 +149,11 @@ opacity: 1;
 
 select#position_activity, input#activity-field {
  border: 1px  white;
-  height: 45px;
+  height: 30px;
   border-radius: 41px !important;
   margin-top: 2px;
-  width: 330px;
-  margin-left: 13px;
+  width: 250px;
+  // margin-left: 13px;
   // background: white !important;
   color: #4E8483;
   // border: 2px solid #8E8E8E;
@@ -167,17 +167,17 @@ select#position_activity, input#activity-field {
 
 .date {
 // display: flex;
-  width: 600px;
-  margin-top: 30px;
-  margin-left: 90px;
+  width: 300px;
+  margin-top: 15px;
+  margin-left: 50px;
 }
 
 
 .date-text {
-height: 40px;
+height: 30px;
 // background-color: #0C5755;
-width: 200px;
-font-size: 20px;
+width: 270px;
+font-size: 15px;
 font-weight: bold;
 color: #4E8483;
 text-align: left;
@@ -191,7 +191,7 @@ padding: 7px 15px;
 background-color: white;
 height: 40px;
 color: #4E8483;
-width: 368px;
+width: 270px;
 text-align: center;
 // border-radius: 41px !important;
 // border: 2px solid #8E8E8E;
@@ -201,10 +201,10 @@ text-align: center;
 
 input#position_date, input#date-field {
   // border: 1px solid white;
-  height: 60px;
+  height: 40px;
   // border-radius: 10px 10px 10px 10px !important;
   margin-top: 2px;
-  width: 368px;
+  width: 260px;
   margin-left: 4px;
   background-color: white;
   color: #4E8483;
@@ -216,18 +216,18 @@ input#position_date, input#date-field {
 
 .time {
 // display: flex;
-  width: 600px;
-  margin-top: 40px;
-  margin-left: 90px;
+  width: 300px;
+  margin-top: 15px;
+  margin-left: 50px;
   border-radius: 0px 8px 8px 0px;
 
 }
 
 .time-text {
-height: 40px;
+height: 30px;
 // background-color: #0C5755;
-width: 200px;
-font-size: 20px;
+width: 270px;
+font-size: 15px;
 color: #4E8483;
 font-weight: bold;
 text-align: left;
@@ -239,9 +239,9 @@ padding: 7px 15px;
 
 .time-field {
 background-color: white;
-height: 60px;
+height: 40px;
 color: #4E8483;
-width: 368px;
+width: 270px;
 text-align: center;
 // border-radius: 41px !important;
 // border: 2px solid #8E8E8E;
@@ -251,8 +251,8 @@ text-align: center;
 
 input#position_time, input#time-field {
   border: 1px solid white;
-  height: 60px;
-  width: 368px;
+  height: 40px;
+  width: 260px;
   margin-top: 2px;
   margin-left: 5px;
   background-color: white;
@@ -273,11 +273,11 @@ text-align: center;
 
 
 .submit {
-  margin-top: 40px;
-  margin-left: 90px;
+  margin-top: 15px;
+  margin-left: 50px;
   font-family: $body-font;
   color: white;
-  font-size: 14px;
+  font-size: 12px;
   background: #32B1B4 0% 0% no-repeat padding-box;  padding: 8px 24px;
   border-radius: 41px;
   // display: flex;
@@ -285,8 +285,8 @@ text-align: center;
   justify-content: center;
   opacity: 1;
   transition: opacity 0.3s ease;
-  width: 300px;
-  height: 60px;
+  width: 175px;
+  height: 40px;
   border: none;
   a {
     // color: $black;
@@ -328,8 +328,8 @@ a { color: white; }
 
 textarea#position_comment {
   border: 1px solid white;
-  height: 160px;
-  width: 368px;
+  height: 100px;
+  width: 260px;
   margin-top: 2px;
   // margin-top: 50px;
   background-color: white;
@@ -338,23 +338,24 @@ textarea#position_comment {
 border: 2px solid #8E8E8E;
 text-align: left;
 padding: 6px;
+font-size: 12px;
 }
 
 
 .comment {
 // display: flex;
-  width: 600px;
-  margin-top: 40px;
-  margin-left: 90px;
+  width: 300px;
+  margin-top: 15px;
+  margin-left: 50px;
   border-radius: 0px 8px 8px 0px;
 
 }
 
 .comment-text {
-height: 40px;
+height: 30px;
 // background-color: #0C5755;
 width: 200px;
-font-size: 20px;
+font-size: 15px;
 color: #4E8483;
 font-weight: bold;
 text-align: left;
