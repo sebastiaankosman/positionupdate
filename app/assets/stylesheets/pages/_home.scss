@@ -19,24 +19,16 @@ display: flex;
 width: 375px;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 // margin-top: -20px;
-box-shadow: 0px 1px 6px #05404055;
-opacity: 1;
+// box-shadow: 0px 1px 6px #05404055;
+// opacity: 1;
 // margin-left: 45px;
-height: 567px;
+height: 600px;
 // position: absolute;
 // z-index: 1;
 
 }
 
-// .form-behind {
-//   width: 375px;
-//   background: #D4ECEF 0% 0% no-repeat padding-box;
-// // opacity: 0.06;
-// position: absolute;
-// height: 567px;
 
-
-// }
 #infoi {
   z-index: 10;
 }
@@ -45,7 +37,7 @@ height: 567px;
 .trip {
   // display: flex;
   width: 300px;
-  margin-left: 55px;
+  margin-left: 35px;
   padding-top: 20px;
 }
 
@@ -53,12 +45,12 @@ height: 567px;
 height: 30px;
 background-color: white;
 width: 270px;
-font-size: 15px;
+font-size: 13px;
 font-weight: bold;
 color: #4E8483;
 text-align: left;
 border-radius: 41px;
-padding: 7px 15px;
+padding: 8px 15px;
 }
 
 .trip-field {
@@ -75,22 +67,25 @@ text-align: center;
 
 input#position_tripnumber, input#trip-field {
   border: 1px  white;
-  height: 40px;
+  height: 45px;
   border-radius: 41px !important;
   margin-top: 2px;
-  width: 260px;
+  width: 300px;
   margin-left: 6px;
   background: white !important;
-  color: #4E8483;
+  color: #8E8E8E;
   border: 2px solid #8E8E8E;
-  text-align: center;
+  // text-align: center;
+    -webkit-appearance:none;
+    font-size: 13px;
+
 }
 
 .activity {
   // display: flex;
   width: 300px;
   margin-top: 15px;
-  margin-left: 55px;
+  margin-left: 40px;
 }
 
 .welcome {
@@ -99,10 +94,13 @@ input#position_tripnumber, input#trip-field {
   // font-weight: bold;
   // font-size: 35px;
   // margin-left: 150px;
-  padding: 70px 0px 70px 0px;
-  background: transparent linear-gradient(121deg, #473B7B 0%, #3584A7 53%, #30D2BE 100%) 0% 0% no-repeat padding-box;
+  padding: 40px 0px 40px 0px;
+  background: #2C3E50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 opacity: 1;
-height: 100px;
+height: 75px;
 width: 375px;
 text-align: center;
 }
@@ -117,29 +115,30 @@ margin-top: 5px;
 .out {
 text-align: right;
 padding-right: 15px;
-margin-top: -50px;
+margin-top: -40px;
 color: white;
+font-size: 10px;
 }
 
 .activity-text {
 height: 30px;
 // background-color: #0C5755;
 width: 270px;
-font-size: 15px;
+font-size: 13px;
 font-weight: bold;
 color: #4E8483;
 text-align: left;
 border-radius: 8px 0px 0px 8px;
-padding: 7px 15px;
+padding: 8px 10px;
 
 
 }
 
 .activity-field {
  background-color: white;
-height: 40px;
+height: 45px;
 color: #4E8483;
-width: 260px;
+width: 300px;
 text-align: center;
 border-radius: 41px !important;
 border: 2px solid #8E8E8E;
@@ -149,19 +148,20 @@ opacity: 1;
 
 select#position_activity, input#activity-field {
  border: 1px  white;
-  height: 30px;
+  height: 32px;
   border-radius: 41px !important;
-  margin-top: 2px;
-  width: 250px;
+  // margin-top: 2px;
+  width: 290px;
   // margin-left: 13px;
   // background: white !important;
-  color: #4E8483;
+  color: #8E8E8E;
   // border: 2px solid #8E8E8E;
-  text-align: center;
+  // text-align: left;
   margin-top: 5px;
   box-shadow: 0s;
   -webkit-appearance:none;
-
+  font-size: 13px;
+  padding-bottom: 8px;
 }
 
 
@@ -169,7 +169,7 @@ select#position_activity, input#activity-field {
 // display: flex;
   width: 300px;
   margin-top: 15px;
-  margin-left: 50px;
+  margin-left: 35px;
 }
 
 
@@ -177,12 +177,12 @@ select#position_activity, input#activity-field {
 height: 30px;
 // background-color: #0C5755;
 width: 270px;
-font-size: 15px;
+font-size: 13px;
 font-weight: bold;
 color: #4E8483;
 text-align: left;
 border-radius: 25px;
-padding: 7px 15px;
+padding: 8px 15px;
 
 
 }
@@ -201,16 +201,20 @@ text-align: center;
 
 input#position_date, input#date-field {
   // border: 1px solid white;
-  height: 40px;
+  height: 45px;
   // border-radius: 10px 10px 10px 10px !important;
   margin-top: 2px;
-  width: 260px;
+  width: 300px;
   margin-left: 4px;
   background-color: white;
-  color: #4E8483;
+  color: #8E8E8E;
   border: 2px solid #8E8E8E;
   border-radius: 41px !important;
-  text-align: center;
+  // text-align: left;
+  padding-left: 13px;
+    -webkit-appearance:none;
+  font-size: 13px;
+
 
 }
 
@@ -218,7 +222,7 @@ input#position_date, input#date-field {
 // display: flex;
   width: 300px;
   margin-top: 15px;
-  margin-left: 50px;
+  margin-left: 35px;
   border-radius: 0px 8px 8px 0px;
 
 }
@@ -227,12 +231,12 @@ input#position_date, input#date-field {
 height: 30px;
 // background-color: #0C5755;
 width: 270px;
-font-size: 15px;
+font-size: 13px;
 color: #4E8483;
 font-weight: bold;
 text-align: left;
 border-radius: 8px 0px 0px 8px;
-padding: 7px 15px;
+padding: 8px 15px;
 
 
 }
@@ -251,15 +255,18 @@ text-align: center;
 
 input#position_time, input#time-field {
   border: 1px solid white;
-  height: 40px;
-  width: 260px;
+  height: 45px;
+  width: 300px;
   margin-top: 2px;
   margin-left: 5px;
   background-color: white;
-  color: #4E8483;
+  color: #8E8E8E;
   border-radius: 41px !important;
 border: 2px solid #8E8E8E;
-text-align: center;
+  -webkit-appearance:none;
+  padding-left: 10px;
+  font-size: 13px;
+
 }
 
 
@@ -274,7 +281,7 @@ text-align: center;
 
 .submit {
   margin-top: 15px;
-  margin-left: 50px;
+  margin-left: 35px;
   font-family: $body-font;
   color: white;
   font-size: 12px;
@@ -285,8 +292,8 @@ text-align: center;
   justify-content: center;
   opacity: 1;
   transition: opacity 0.3s ease;
-  width: 175px;
-  height: 40px;
+  width: 300px;
+  height: 45px;
   border: none;
   a {
     // color: $black;
@@ -322,23 +329,27 @@ text-align: center;
   }
 }
 
-a { color: white; }
+a { color: white;
+}
+
 
 
 
 textarea#position_comment {
   border: 1px solid white;
   height: 100px;
-  width: 260px;
+  width: 300px;
   margin-top: 2px;
   // margin-top: 50px;
   background-color: white;
-  color: #4E8483;
+  color: #8E8E8E;
   border-radius: 25px !important;
 border: 2px solid #8E8E8E;
 text-align: left;
-padding: 6px;
-font-size: 12px;
+padding: 12px;
+font-size: 13px;
+  -webkit-appearance:none;
+
 }
 
 
@@ -346,7 +357,7 @@ font-size: 12px;
 // display: flex;
   width: 300px;
   margin-top: 15px;
-  margin-left: 50px;
+  margin-left: 35px;
   border-radius: 0px 8px 8px 0px;
 
 }
@@ -354,12 +365,12 @@ font-size: 12px;
 .comment-text {
 height: 30px;
 // background-color: #0C5755;
-width: 200px;
-font-size: 15px;
+width: 300px;
+font-size: 13px;
 color: #4E8483;
 font-weight: bold;
 text-align: left;
-padding: 7px 15px;
+padding: 8px 15px;
 
 }
 
