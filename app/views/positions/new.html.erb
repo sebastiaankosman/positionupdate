@@ -36,7 +36,7 @@
       Date
     </div>
     <div class="date-field">
-      <%= f.date_field :date %>
+      <%= f.input :date, as: :string, label: false, required: false, input_html: {class: "datepicker"} %>
     </div>
   </div>
   <div class="time">
@@ -59,6 +59,9 @@
     <div>
     <%= f.text_area :comment, placeholder: 'Please write down information such as technical issues, delays and other things that helps us plan' %>
     </div>
+
+
+
   </div>
     <div class="buttons">
 

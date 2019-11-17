@@ -1,4 +1,6 @@
 import "bootstrap";
+import "../plugins/flatpickr"
+
 
 import { initSweetalert } from '../plugins/init_sweetalert';
 
