@@ -9,6 +9,6 @@ class PositionMailer < ActionMailer::Base
 
 
 
-    mail(:to => "sebastiaan.kosman@shell.com", :subject => "Barge position #{barge_name}")
+    mail(:to => "sebastiaan.kosman@shell.com, floris.duursma@shell.com", :subject => "Barge position #{barge_name}")
   end
 end
